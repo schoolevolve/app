@@ -1,0 +1,19 @@
+<div class="modal-header">
+    <center>
+        <h3 class="modal-title">{{::(isError)?'Error':'Notification'}}</h3>
+    </center>
+</div>
+<div class="modal-body">
+    <div ng-if="isError">
+        <p>
+            Sorry, but there was an error during the operation you invoked!
+        </p>
+        <p class="alert alert-danger">{{::message}}</p>
+    </div>
+    <div ng-if="!isError">
+        <p>{{::message}}</p>
+    </div>
+</div>
+<div class="modal-footer">
+    <center><button class="btn ui-btn-cancel" ng-click="ok()">Ok</button></center>
+</div>

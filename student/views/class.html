@@ -1,0 +1,100 @@
+<!--<a id="bookmark-this" class="btn btn-sm btn-default">Bookmark This Page</a>-->
+<div class="upper-bar">
+    <div class="row">
+        <div class="col-xs-3">
+            <!--<a class="noDeco" href="" ng-click="goBack()"><i class="fa fa-chevron-left fa-lg" aria-hidden="true"></i></a>-->
+        </div>
+        <div class="col-xs-6 app-name">
+            {{::classInfo.class_name}}
+        </div>
+        <div class="col-xs-3">
+
+        </div>
+    </div>
+</div>
+
+<div class="view-container">
+    <div ng-if="!loaded" class="alert alert-warning">
+        Loading...
+    </div>
+    <div class="section" ng-if="loaded">
+        <!--<h4>Teacher: {{classInfo.teacher_title}} {{classInfo.teacher_firstName}} {{classInfo.teacher_lastName}}</h4>-->
+        <div ng-if="::invalidURL">
+            URL is invalid. Please, ask your teacher to share his URL with you once again!
+        </div>
+        <div ng-if="::!invalidURL">
+            <!--<h1>
+            Class {{::classInfo.class_name}}
+        </h1>-->
+            <form ng-submit="submitResponse()">
+                <div class="response-header">Select a prompt to respond to:</div>
+                <div class="form-group">
+                    <!--<select class="form-control" ng-options="prompt.prompt_id as prompt.prompt_body for prompt in ::prompts" ng-model="feedback.promptId" required>
+                <option value="" disabled selected hidden>- Please Choose -</option>
+                </select>-->
+                    <div class="radio" ng-repeat="prompt in ::prompts | orderBy:['category_id','prompt_body']">
+                        <label>
+                    <input type="radio" name="promptRadioGroup" ng-value="::prompt"  ng-model="feedback.prompt" required />
+                    {{::prompt.prompt_body}}
+                    </label>
+                    </div>
+                </div>
+                <div class="response-header">Submit response</div>
+                <div class="form-group">
+                    <input class="form-control" placeholder="JumpID" ng-model="feedback.credentials" required />
+                    <div class="pull-right"><span class="register-link" ng-click="openRegister()">Don't have a JumpID? Register here!</span></div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--<div ng-show="feedback.prompt">
+                <p ng-if="!removalPolicy.remove_responses || (removalPolicy.category_id!='0' && feedback.prompt.category_id!=removalPolicy.category_id)">That response will never be removed</p>
+                <p ng-if="removalPolicy.remove_responses && (removalPolicy.category_id=='0' || feedback.prompt.category_id==removalPolicy.category_id)">That response will be removed in {{removalPolicy.remove_after}} days</p>
+            </div>-->
+                <div class="form-group">
+                    <textarea class="form-control" rows="7" ng-model="feedback.feedback" placeholder="Enter your feedback here" maxlength="255" required></textarea>
+                    <p class="warning">Please don't enter any personal information in this box, like your email address, social media username, address, or birthday.</p>
+                    <p class="warning" ng-controller="LoginCtrl">Click <a href="" ng-click="logout()">here</a> to delete <a href="" popover-class="popover-black" uib-popover="This can help protect your privacy, especially if you used someone else's device/computer" popover-trigger="'mouseenter'">cookie data</a></p>
+                </div>
+                <div ng-show="submitSuccess" class="alert alert-success">Submitted successfully!</div>
+                <div ng-if="unauthorizedError" class="alert alert-danger">Authorization Error! Please refresh page and try again.</div>
+                <div ng-if="unregisteredSubmit" class="alert alert-danger">Your JumpID was not registered to that class. Please <a href="" ng-click="openRegister(feedback.credentials)">register first</a></div>
+                <button type="submit" class="btn ui-btn-save-settings" ng-disabled="responseBlock">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!--<script>
+    jQuery(function($) {
+        $('#bookmark-this').click(function(e) {
+            var bookmarkURL = window.location.href;
+            var bookmarkTitle = document.title;
+
+            if ('addToHomescreen' in window && addToHomescreen.isCompatible) {
+                // Mobile browsers
+                addToHomescreen({
+                    autostart: false,
+                    startDelay: 0
+                }).show(true);
+            } else if (window.sidebar && window.sidebar.addPanel) {
+                // Firefox <=22
+                window.sidebar.addPanel(bookmarkTitle, bookmarkURL, '');
+            } else if ((window.sidebar && /Firefox/i.test(navigator.userAgent)) || (window.opera && window.print)) {
+                // Firefox 23+ and Opera <=14
+                $(this).attr({
+                    href: bookmarkURL,
+                    title: bookmarkTitle,
+                    rel: 'sidebar'
+                }).off(e);
+                return true;
+            } else if (window.external && ('AddFavorite' in window.external)) {
+                // IE Favorites
+                window.external.AddFavorite(bookmarkURL, bookmarkTitle);
+            } else {
+                // Other browsers (mainly WebKit & Blink - Safari, Chrome, Opera 15+)
+                alert('Press ' + (/Mac/i.test(navigator.userAgent) ? 'Cmd' : 'Ctrl') + '+D to bookmark this page.');
+            }
+
+            return false;
+        });
+    });
+
+</script>-->

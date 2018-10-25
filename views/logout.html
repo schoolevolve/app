@@ -1,0 +1,14 @@
+<div class="view-container">
+    <div class="section" ng-if="!loaded">
+        <div class="alert alert-warning">Loading...</div>
+    </div>
+    <div ng-if="loaded">
+        <div class="login-block center-block">
+            <img class="logo" src="images/SchoolEvolve.png" />
+            <p>
+                You were successfully signed out
+            </p>
+            <button class="btn ui-btn-delete" ng-click="goToLogin()">Login</button>
+        </div>
+    </div>
+</div>

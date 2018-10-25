@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>School Evolve | Teacher</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google-signin-client_id" content="174302536820-tvcaema5scjr3q9kqvco1ar6n417mi0a.apps.googleusercontent.com">
+
+    <link rel="stylesheet" href="libraries/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--<link rel="manifest" href="manifest.json" />-->
+
+    <link rel="stylesheet" href="common/styles/main.css">
+    <link rel="stylesheet" href="styles/teacher.css">
+    <link rel="stylesheet" href="styles/ui.css">
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://use.fontawesome.com/f1450a1eb2.js"></script>
+</head>
+
+<body ng-app="teachersApp">
+    <!--[if lte IE 8]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+    <div class="header">
+    </div>
+
+    <div class="container main-block">
+        <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>
+                <center>&copy; School Evolve</center>
+            </p>
+        </div>
+    </div>
+
+    <script src="libraries/stacktrace.js"></script>
+    <script src="libraries/jquery/dist/jquery.min.js"></script>
+    <script src="libraries/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="libraries/angular/angular.min.js"></script>
+    <script src="libraries/angular-route/angular-route.min.js"></script>
+    <script src="libraries/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+    <script>
+        $(function() {
+            var navMain = $(".navbar-collapse");
+            navMain.on("click", "a:not([data-toggle])", null, function() {
+                navMain.collapse('hide');
+            });
+        });
+
+    </script>
+    <script src="scripts/app.js"></script>
+    <script src="common/scripts/services.js"></script>
+    <script src="common/scripts/controllers/modals.js"></script>
+    <script src="local/local.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/templates.js"></script>
+    <script src="scripts/controllers/modals.js"></script>
+    <script src="common/scripts/logger.js"></script>
+</body>
+
+</html>

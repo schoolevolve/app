@@ -1,0 +1,1331 @@
+2017-07-13 09:57:11 - ReferenceError: teacherServicea is not defined (teacher - 3)
+loginSuccessful@http://localhost/teachers/teacher/scripts/controllers/templates.js:138:13
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:34:46
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:10:17
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-13 09:57:26 - ReferenceError: teacherServicea is not defined (teacher - 3)
+loginSuccessful@http://localhost/teachers/teacher/scripts/controllers/templates.js:138:13
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:34:46
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:10:17
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-18 06:12:49 - ReferenceError: teacherId is not defined (teacher - 3)
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/templates.js:341:176
+Object.loadTeacherInfo@http://localhost/teachers/teacher/scripts/services.js:59:20
+loginSuccessful@http://localhost/teachers/teacher/scripts/controllers/templates.js:336:28
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/templates.js:322:18
+Object.tryLogin@http://localhost/teachers/teacher/scripts/services.js:42:20
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/templates.js:318:22
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+<div ng-view="" class="ng-scope">
+2017-07-18 08:52:44 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=ClassCtrl (teacher - 3)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-18 09:03:28 - TypeError: Cannot read property 'prompt_id' of undefined (teacher - 3)
+{anonymous}() (b.)$scope.updatePromptBody@http://localhost/teachers/teacher/scripts/controllers/modals.js:43:51
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:241
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (b.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (b.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLButtonElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLButtonElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLButtonElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-18 09:08:05 - TypeError: Cannot read property 'length' of undefined (teacher - 3)
+{anonymous}() (b.)$scope.removePrompt@http://localhost/teachers/teacher/scripts/controllers/templates.js:503:42
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:229
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (b.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (b.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLSpanElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLSpanElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLSpanElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-18 09:08:39 - ReferenceError: id is not defined (teacher - 3)
+removePromptLocal@http://localhost/teachers/teacher/scripts/controllers/templates.js:616:67
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/templates.js:520:29
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:328:17
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-18 11:15:57 - TypeError: Cannot read property 'signin2' of undefined (teacher - 12)
+Object.link@http://localhost/teachers/teacher/scripts/app.js:96:29
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:84:480
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+g@http://localhost/teachers/bower_components/angular/angular.min.js:62:12
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:166
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+<google-sign-in-button button-id="signInButton" options="options" class="ng-isolate-scope">
+2017-07-18 11:21:09 - TypeError: Cannot read property 'teacher_title' of undefined (teacher - 12)
+Object.updateTeacherInfo@http://localhost/teachers/teacher/scripts/services.js:109:39
+{anonymous}() (b.)$scope.updateTeacherInfo@http://localhost/teachers/teacher/scripts/controllers/main.js:61:28
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:171
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (b.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (b.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLButtonElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLButtonElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLButtonElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-18 11:23:07 - TypeError: Cannot read property 'teachersName' of undefined (teacher - 12)
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/main.js:64:28
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:114:17
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-18 11:32:55 - TypeError: Cannot read property 'load' of undefined (student - )
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/main.js:71:21
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+<div ng-view="" class="ng-scope">
+2017-07-24 12:28:31 - ReferenceError: paymentService is not defined (teacher - 12)
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/main.js:95:9
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+<div ng-view="" class="ng-scope ng-binding">
+2017-07-24 12:28:56 - ReferenceError: paymentService is not defined (teacher - 12)
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/main.js:95:9
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+<div ng-view="" class="ng-scope ng-binding">
+2017-07-24 12:29:06 - ReferenceError: paymentService is not defined (teacher - 12)
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/main.js:95:9
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+<div ng-view="" class="ng-scope ng-binding">
+2017-07-24 13:31:31 - ReferenceError: paymentService is not defined (teacher - 12)
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/main.js:95:9
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+<div ng-view="" class="ng-scope">
+2017-07-24 13:47:07 - ReferenceError: loginService is not defined (teacher - 12)
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/main.js:101:17
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:376:17
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-25 07:11:41 - ReferenceError: $uibModal is not defined (teacher - 12)
+{anonymous}() (m.)$scope.deleteAccount@http://localhost/teachers/teacher/scripts/controllers/templates.js:221:47
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:159
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (m.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLButtonElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLButtonElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLButtonElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-25 08:11:27 - TypeError: successHandler is not a function (teacher - 12)
+Object.loadClasses@http://localhost/teachers/teacher/scripts/services.js:164:20
+loginSuccessful@http://localhost/teachers/teacher/scripts/controllers/templates.js:18:28
+Object.tryLogin@http://localhost/teachers/teacher/scripts/services.js:49:22
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/templates.js:5:22
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+<div ng-view="" class="ng-scope">
+2017-07-25 09:59:11 - Error: [$parse:lexerr] http://errors.angularjs.org/1.6.4/$parse/lexerr?p0=Unexpected%20next%20character%20&p1=s%200-0%20%5B%23%5D&p2=%23!logout (student - )
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+wc.throwError@http://localhost/teachers/bower_components/angular/angular.min.js:224:149
+wc.lex@http://localhost/teachers/bower_components/angular/angular.min.js:221:369
+s.ast@http://localhost/teachers/bower_components/angular/angular.min.js:228:175
+uc.parse@http://localhost/teachers/bower_components/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:132:115
+Object.compile@http://localhost/teachers/bower_components/angular/angular.min.js:284:122
+W@http://localhost/teachers/bower_components/angular/angular.min.js:74:419
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:176
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:307
+<a href="" ng-click="#!logout">
+2017-07-25 10:00:27 - TypeError: Cannot read property 'load' of undefined (student - )
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/main.js:71:21
+Object.instantiate@http://localhost/teachers/bower_components/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+<div ng-view="" class="ng-scope">
+2017-07-25 10:00:47 - Error: [$parse:lexerr] http://errors.angularjs.org/1.6.4/$parse/lexerr?p0=Unexpected%20next%20character%20&p1=s%200-0%20%5B%23%5D&p2=%23!logout (student - )
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+wc.throwError@http://localhost/teachers/bower_components/angular/angular.min.js:224:149
+wc.lex@http://localhost/teachers/bower_components/angular/angular.min.js:221:369
+s.ast@http://localhost/teachers/bower_components/angular/angular.min.js:228:175
+uc.parse@http://localhost/teachers/bower_components/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:132:115
+Object.compile@http://localhost/teachers/bower_components/angular/angular.min.js:284:122
+W@http://localhost/teachers/bower_components/angular/angular.min.js:74:419
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:176
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:307
+<a href="" ng-click="#!logout">
+2017-07-25 10:01:00 - Error: [$parse:lexerr] http://errors.angularjs.org/1.6.4/$parse/lexerr?p0=Unexpected%20next%20character%20&p1=s%200-0%20%5B%23%5D&p2=%23!logout (student - )
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+wc.throwError@http://localhost/teachers/bower_components/angular/angular.min.js:224:149
+wc.lex@http://localhost/teachers/bower_components/angular/angular.min.js:221:369
+s.ast@http://localhost/teachers/bower_components/angular/angular.min.js:228:175
+uc.parse@http://localhost/teachers/bower_components/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:132:115
+Object.compile@http://localhost/teachers/bower_components/angular/angular.min.js:284:122
+W@http://localhost/teachers/bower_components/angular/angular.min.js:74:419
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:176
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:307
+<a href="" ng-click="#!logout">
+2017-07-25 10:01:14 - Error: [$parse:lexerr] http://errors.angularjs.org/1.6.4/$parse/lexerr?p0=Unexpected%20next%20character%20&p1=s%200-0%20%5B%23%5D&p2=%23!logout (student - )
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+wc.throwError@http://localhost/teachers/bower_components/angular/angular.min.js:224:149
+wc.lex@http://localhost/teachers/bower_components/angular/angular.min.js:221:369
+s.ast@http://localhost/teachers/bower_components/angular/angular.min.js:228:175
+uc.parse@http://localhost/teachers/bower_components/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:132:115
+Object.compile@http://localhost/teachers/bower_components/angular/angular.min.js:284:122
+W@http://localhost/teachers/bower_components/angular/angular.min.js:74:419
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:176
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:307
+<a href="" ng-click="#!logout">
+2017-07-25 10:02:45 - Error: [$parse:lexerr] http://errors.angularjs.org/1.6.4/$parse/lexerr?p0=Unexpected%20next%20character%20&p1=s%200-0%20%5B%23%5D&p2=%23!logout (student - )
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+wc.throwError@http://localhost/teachers/bower_components/angular/angular.min.js:224:149
+wc.lex@http://localhost/teachers/bower_components/angular/angular.min.js:221:369
+s.ast@http://localhost/teachers/bower_components/angular/angular.min.js:228:175
+uc.parse@http://localhost/teachers/bower_components/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:132:115
+Object.compile@http://localhost/teachers/bower_components/angular/angular.min.js:284:122
+W@http://localhost/teachers/bower_components/angular/angular.min.js:74:419
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:176
+Ma@http://localhost/teachers/bower_components/angular/angular.min.js:62:307
+<a href="" ng-click="#!logout">
+2017-07-25 11:36:51 - Error: [$injector:unpr] http://errors.angularjs.org/1.6.4/$injector/unpr?p0=headerProvider%20%3C-%20header%20%3C-%20ConfirmationModalCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:375
+Object.d [as get]@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:437
+d@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+e@http://localhost/teachers/bower_components/angular/angular.min.js:43:333
+Object.invoke@http://localhost/teachers/bower_components/angular/angular.min.js:43:418
+S.instance@http://localhost/teachers/bower_components/angular/angular.min.js:94:35
+{anonymous}()@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:31463
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+Possibly unhandled rejection: {}
+2017-07-26 10:56:42 - ReferenceError: $uibModal is not defined (teacher - 12)
+{anonymous}() (m.)$scope.removeClass@http://localhost/teachers/teacher/scripts/controllers/templates.js:159:47
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:211
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (m.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLDivElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLDivElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLDivElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-26 12:15:48 - ReferenceError: filter is not defined (teacher - 12)
+{anonymous}() (m.)$scope.checkPinned@http://localhost/teachers/teacher/scripts/controllers/templates.js:506:17
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:153
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (m.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-26 12:16:18 - ReferenceError: filter is not defined (teacher - 12)
+{anonymous}() (m.)$scope.checkPinned@http://localhost/teachers/teacher/scripts/controllers/templates.js:508:17
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:153
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (m.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-26 12:16:36 - ReferenceError: filter is not defined (teacher - 12)
+{anonymous}() (m.)$scope.checkPinned@http://localhost/teachers/teacher/scripts/controllers/templates.js:508:50
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:153
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (m.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-26 12:53:56 - Error: [ngRepeat:dupes] http://errors.angularjs.org/1.6.4/ngRepeat/dupes?p0=prompt%20in%20prompts&p1=undefined%3Aundefined&p2=undefined (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:312:477
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:145:67
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:171
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+
+2017-07-26 14:04:08 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=FeedCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 07:01:33 - TypeError: Cannot read property 'signin2' of undefined (teacher - 12)
+Object.link@http://localhost/teachers/teacher/scripts/app.js:102:29
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:84:480
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+g@http://localhost/teachers/bower_components/angular/angular.min.js:62:12
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:166
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+<google-sign-in-button button-id="signInButton" options="options" class="ng-isolate-scope">
+2017-07-27 07:26:16 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=ClassesCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 07:26:43 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=ClassesCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 07:26:45 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=ClassesCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 07:27:32 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=ClassesCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 07:57:39 - Error: [$injector:unpr] http://errors.angularjs.org/1.6.4/$injector/unpr?p0=headerProvider%20%3C-%20header%20%3C-%20ConfirmationModalCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:375
+Object.d [as get]@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:437
+d@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+e@http://localhost/teachers/bower_components/angular/angular.min.js:43:333
+Object.invoke@http://localhost/teachers/bower_components/angular/angular.min.js:43:418
+S.instance@http://localhost/teachers/bower_components/angular/angular.min.js:94:35
+{anonymous}()@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:31463
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+Possibly unhandled rejection: {}
+2017-07-27 07:58:31 - Error: [$injector:unpr] http://errors.angularjs.org/1.6.4/$injector/unpr?p0=headerProvider%20%3C-%20header%20%3C-%20ConfirmationModalCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:375
+Object.d [as get]@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:437
+d@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+e@http://localhost/teachers/bower_components/angular/angular.min.js:43:333
+Object.invoke@http://localhost/teachers/bower_components/angular/angular.min.js:43:418
+S.instance@http://localhost/teachers/bower_components/angular/angular.min.js:94:35
+{anonymous}()@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:31463
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+Possibly unhandled rejection: {}
+2017-07-27 09:10:38 - Error: [$injector:unpr] http://errors.angularjs.org/1.6.4/$injector/unpr?p0=headerProvider%20%3C-%20header%20%3C-%20ConfirmationModalCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:375
+Object.d [as get]@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:45:437
+d@http://localhost/teachers/bower_components/angular/angular.min.js:43:92
+e@http://localhost/teachers/bower_components/angular/angular.min.js:43:333
+Object.invoke@http://localhost/teachers/bower_components/angular/angular.min.js:43:418
+S.instance@http://localhost/teachers/bower_components/angular/angular.min.js:94:35
+{anonymous}()@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:31463
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+Possibly unhandled rejection: {}
+2017-07-27 09:24:42 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=ClassCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 09:24:44 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=ResponsesCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 09:25:12 - TypeError: Cannot read property 'className' of undefined (teacher - 12)
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/modals.js:77:47
+Object.invoke@http://localhost/teachers/bower_components/angular/angular.min.js:44:171
+S.instance@http://localhost/teachers/bower_components/angular/angular.min.js:94:35
+{anonymous}()@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:31463
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-27 09:37:51 - ReferenceError: studentInfo is not defined (teacher - 12)
+question@http://localhost/teachers/teacher/scripts/controllers/templates.js:673:39
+Object.invoke@http://localhost/teachers/bower_components/angular/angular.min.js:44:171
+{anonymous}()@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:21439
+Object.q [as forEach]@http://localhost/teachers/bower_components/angular/angular.min.js:8:184
+Object.resolve@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:21356
+Object.j.open@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:30362
+{anonymous}() (b.)$scope.removeStudent@http://localhost/teachers/teacher/scripts/controllers/templates.js:664:47
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:235
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (b.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+
+2017-07-27 10:18:58 - ReferenceError: updatePromptLocal is not defined (teacher - 12)
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/templates.js:773:32
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-27 10:38:07 - ReferenceError: credentials is not defined (teacher - 12)
+new <anonymous>@http://localhost/teachers/teacher/scripts/controllers/modals.js:84:26
+Object.invoke@http://localhost/teachers/bower_components/angular/angular.min.js:44:171
+S.instance@http://localhost/teachers/bower_components/angular/angular.min.js:94:35
+{anonymous}()@http://localhost/teachers/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js:8:31463
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-27 12:18:14 - TypeError: $location is not a function (teacher - 12)
+{anonymous}() (b.)$scope.goToTutorial2@http://localhost/teachers/teacher/scripts/controllers/templates.js:216:17
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:159
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (b.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (b.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLButtonElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLButtonElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLButtonElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-27 12:27:46 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=FeedCtrl (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-27 12:30:05 - ReferenceError: tutorial is not defined (teacher - 12)
+loginSuccessful@http://localhost/teachers/teacher/scripts/controllers/templates.js:514:24
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/templates.js:504:18
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:39:30
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:10:17
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-27 12:58:10 - Error: [$parse:ueoe] http://errors.angularjs.org/1.6.4/$parse/ueoe?p0=promptIndexes%5B%5Bcategory.category_id%5D.length (teacher - 12)
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+s.consume@http://localhost/teachers/bower_components/angular/angular.min.js:236:494
+s.primary@http://localhost/teachers/bower_components/angular/angular.min.js:233:372
+s.unary@http://localhost/teachers/bower_components/angular/angular.min.js:232:137
+s.multiplicative@http://localhost/teachers/bower_components/angular/angular.min.js:231:386
+s.additive@http://localhost/teachers/bower_components/angular/angular.min.js:231:213
+s.relational@http://localhost/teachers/bower_components/angular/angular.min.js:231:48
+s.equality@http://localhost/teachers/bower_components/angular/angular.min.js:230:374
+s.logicalAND@http://localhost/teachers/bower_components/angular/angular.min.js:230:227
+s.logicalOR@http://localhost/teachers/bower_components/angular/angular.min.js:230:74
+<div role="tablist" class="panel-group" ng-transclude="">
+2017-07-27 13:07:35 - ReferenceError: $window is not defined (teacher - 12)
+{anonymous}() (m.)$scope.goBack@http://localhost/teachers/teacher/scripts/controllers/templates.js:914:17
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:138
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (m.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLAnchorElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLAnchorElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLAnchorElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-27 14:13:09 - ReferenceError: $window is not defined (teacher - 12)
+{anonymous}() (m.)$scope.goBack@http://localhost/teachers/teacher/scripts/controllers/templates.js:629:17
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:138
+e@http://localhost/teachers/bower_components/angular/angular.min.js:284:187
+{anonymous}() (m.)$eval@http://localhost/teachers/bower_components/angular/angular.min.js:148:347
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:52
+HTMLAnchorElement.<anonymous>@http://localhost/teachers/bower_components/angular/angular.min.js:284:239
+HTMLAnchorElement.dispatch@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:10316
+HTMLAnchorElement.q.handle@http://localhost/teachers/bower_components/jquery/dist/jquery.min.js:3:8343
+
+2017-07-30 07:36:16 - Error: [$controller:ctrlreg] http://errors.angularjs.org/1.6.4/$controller/ctrlreg?p0=LogoutCtrl (student - )
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:93:395
+Object.link@http://localhost/teachers/bower_components/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<div ng-view="" class="ng-scope">
+2017-07-30 07:56:16 - TypeError: Cannot read property 'signin2' of undefined (teacher - 18)
+Object.link@http://localhost/teachers/teacher/scripts/app.js:102:29
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:84:480
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+g@http://localhost/teachers/bower_components/angular/angular.min.js:62:12
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<google-sign-in-button button-id="signInButton" options="options" class="ng-isolate-scope">
+2017-07-30 08:08:35 - TypeError: Cannot read property 'responses' of undefined (teacher - 12)
+{anonymous}()@http://localhost/teachers/teacher/scripts/controllers/templates.js:156:43
+{anonymous}()@http://localhost/teachers/teacher/scripts/services.js:405:21
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+l@http://localhost/teachers/bower_components/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/bower_components/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-07-30 09:46:26 - TypeError: a.UTC is not a function (teacher - 12)
+$scope.dateComparator@http://localhost/teachers/teacher/scripts/controllers/templates.js:110:30
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:394
+Ea@http://localhost/teachers/bower_components/angular/angular.min.js:166:345
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:465
+Array.filter@native
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:165:197
+fn (eval at compile@http://localhost/teachers/bower_components/angular/angular.min.js:239:266), <anonymous>:4:1370
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:129:343
+{anonymous}() (m.)$digest@http://localhost/teachers/bower_components/angular/angular.min.js:146:81
+{anonymous}() (m.)$apply@http://localhost/teachers/bower_components/angular/angular.min.js:149:113
+
+2017-08-02 06:33:08 - TypeError: Cannot read property 'signin2' of undefined (student - )
+Object.link@http://localhost/teachers/teacher/scripts/app.js:102:29
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:17:3
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:84:480
+ra@http://localhost/teachers/bower_components/angular/angular.min.js:85:35
+n@http://localhost/teachers/bower_components/angular/angular.min.js:70:226
+g@http://localhost/teachers/bower_components/angular/angular.min.js:61:496
+g@http://localhost/teachers/bower_components/angular/angular.min.js:62:12
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/bower_components/angular/angular.min.js:66:281
+d@http://localhost/teachers/bower_components/angular/angular.min.js:63:252
+<google-sign-in-button button-id="signInButton" options="options" class="ng-isolate-scope">
+2017-09-19 12:48:32 - ReferenceError: r is not defined (teacher - 23)
+loginSuccessful@http://localhost/teachers/scripts/controllers/templates.js:877:21
+{anonymous}()@http://localhost/teachers/scripts/controllers/templates.js:857:18
+{anonymous}()@http://localhost/teachers/scripts/services.js:51:25
+{anonymous}()@http://localhost/teachers/scripts/services.js:11:17
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-24 08:46:48 - Error: [$parse:syntax] http://errors.angularjs.org/1.6.4/$parse/syntax?p0=%2C&p1=is%20an%20unexpected%20token&p2=8&p3='click'%2C'mouseenter'&p4=%2C'mouseenter' (teacher - 23)
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:6:425
+s.throwError@http://localhost/teachers/libraries/angular/angular.min.js:236:369
+s.ast@http://localhost/teachers/libraries/angular/angular.min.js:228:228
+uc.parse@http://localhost/teachers/libraries/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:132:115
+{anonymous}() (b.)$eval@http://localhost/teachers/libraries/angular/angular.min.js:148:343
+D@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:7314
+{anonymous}()@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:9029
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+<span uib-popover="{{getCalledOnText(response.called_on)}}" popover-placement="right" popover-trigger="'click','mouseenter'" class="badge ng-binding" ng-class="getCalledOnClass(response.called_on)">
+2017-09-24 08:46:48 - Error: [$parse:syntax] http://errors.angularjs.org/1.6.4/$parse/syntax?p0=%2C&p1=is%20an%20unexpected%20token&p2=8&p3='click'%2C'mouseenter'&p4=%2C'mouseenter' (teacher - 23)
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:6:425
+s.throwError@http://localhost/teachers/libraries/angular/angular.min.js:236:369
+s.ast@http://localhost/teachers/libraries/angular/angular.min.js:228:228
+uc.parse@http://localhost/teachers/libraries/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:132:115
+{anonymous}() (b.)$eval@http://localhost/teachers/libraries/angular/angular.min.js:148:343
+D@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:7314
+{anonymous}()@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:9029
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+<span uib-popover="{{getCalledOnText(response.called_on)}}" popover-placement="right" popover-trigger="'click','mouseenter'" class="badge ng-binding" ng-class="getCalledOnClass(response.called_on)">
+2017-09-24 08:48:21 - Error: [$parse:syntax] http://errors.angularjs.org/1.6.4/$parse/syntax?p0=%3A&p1=is%20an%20unexpected%20token&p2=13&p3='mouseenter'%3A'mouseleave'&p4=%3A'mouseleave' (teacher - 23)
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:6:425
+s.throwError@http://localhost/teachers/libraries/angular/angular.min.js:236:369
+s.ast@http://localhost/teachers/libraries/angular/angular.min.js:228:228
+uc.parse@http://localhost/teachers/libraries/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:132:115
+{anonymous}() (b.)$eval@http://localhost/teachers/libraries/angular/angular.min.js:148:343
+D@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:7314
+{anonymous}()@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:9029
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+<span uib-popover="{{getCalledOnText(response.called_on)}}" popover-placement="right" popover-trigger="'mouseenter':'mouseleave'" class="badge ng-binding" ng-class="getCalledOnClass(response.called_on)">
+2017-09-24 08:48:21 - Error: [$parse:syntax] http://errors.angularjs.org/1.6.4/$parse/syntax?p0=%3A&p1=is%20an%20unexpected%20token&p2=13&p3='mouseenter'%3A'mouseleave'&p4=%3A'mouseleave' (teacher - 23)
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:6:425
+s.throwError@http://localhost/teachers/libraries/angular/angular.min.js:236:369
+s.ast@http://localhost/teachers/libraries/angular/angular.min.js:228:228
+uc.parse@http://localhost/teachers/libraries/angular/angular.min.js:263:46
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:132:115
+{anonymous}() (b.)$eval@http://localhost/teachers/libraries/angular/angular.min.js:148:343
+D@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:7314
+{anonymous}()@http://localhost/teachers/libraries/angular-bootstrap/ui-bootstrap-tpls.min.js:9:9029
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+<span uib-popover="{{getCalledOnText(response.called_on)}}" popover-placement="right" popover-trigger="'mouseenter':'mouseleave'" class="badge ng-binding" ng-class="getCalledOnClass(response.called_on)">
+2017-09-28 07:43:28 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:43:47 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:44:00 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:44:11 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:44:53 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:45:03 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:46:15 - Error: [ngRepeat:dupes] http://errors.angularjs.org/1.6.4/ngRepeat/dupes?p0=c%20in%20myClasses%20%7C%20orderBy%3AclassSort%3Atrue%20%7C%20orderBy%3A'class_name'&p1=string%3AI&p2=I (teacher - 38)
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:312:477
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:145:67
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:146:171
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+
+2017-09-28 07:46:15 - TypeError: Cannot create property 'last_visit' on string '<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_connect(): (HY000/2002): ��������� �� �����������, �.�. ������ ������� ������ ������ �� ���������.
+ in C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php on line <i>3</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062616</td><td bgcolor='#eeeeec'>getDBConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062640</td><td bgcolor='#eeeeec'>getLocalConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>5</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062880</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-connect' target='_new'>mysqli_connect</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php' bgcolor='#eeeeec'>...\local_connect.php<b>:</b>3</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php on line <i>4</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062616</td><td bgcolor='#eeeeec'>getDBConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062640</td><td bgcolor='#eeeeec'>getLocalConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>5</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>2.1401</td><td bgcolor='#eeeeec' align='right'>1063352</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php' bgcolor='#eeeeec'>...\local_connect.php<b>:</b>4</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>69</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.1401</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.1401</td><td bgcolor='#eeeeec' align='right'>1063312</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>69</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: Cannot modify header information - headers already sent by (output started at C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php:4) in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>71</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.1401</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.1411</td><td bgcolor='#eeeeec' align='right'>1063408</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.header' target='_new'>header</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>71</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.1401</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.1421</td><td bgcolor='#eeeeec' align='right'>1063344</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+</table></font>
+QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_until<CURDATE() AS unavailable, is_trial,
+		teacher_label, short_url 
+		FROM teachers WHERE teacher_id = 38"' (teacher - 38)
+C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php:4) in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>71</i></th></tr>
+{anonymous}()@<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+{anonymous}()@<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.1401</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+{anonymous}()@<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.1411</td><td bgcolor='#eeeeec' align='right'>1063408</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.header' target='_new'>header</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>71</td></tr>
+{anonymous}()@</table></font>
+{anonymous}()@<br />
+{anonymous}()@<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+{anonymous}()@<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+{anonymous}()@<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0831</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.1401</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+{anonymous}()@<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.1421</td><td bgcolor='#eeeeec' align='right'>1063344</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+{anonymous}()@</table></font>
+QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_until<CURDATE() AS unavailable, is_trial,{anonymous}() (
+		teacher_label, short_url )
+{anonymous}()@		FROM teachers WHERE teacher_id = 38"'
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:46:15 - TypeError: responses.data.forEach is not a function (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:420:36
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:46:15 - TypeError: promptsAmount.data.forEach is not a function (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:185:36
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:46:51 - Error: [ngRepeat:dupes] http://errors.angularjs.org/1.6.4/ngRepeat/dupes?p0=c%20in%20myClasses%20%7C%20orderBy%3AclassSort%3Atrue%20%7C%20orderBy%3A'class_name'&p1=string%3AI&p2=I (teacher - 38)
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:6:425
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:312:477
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:145:67
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:146:171
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+
+2017-09-28 07:46:51 - TypeError: Cannot create property 'last_visit' on string '<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_connect(): (HY000/2002): ��������� �� �����������, �.�. ������ ������� ������ ������ �� ���������.
+ in C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php on line <i>3</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062616</td><td bgcolor='#eeeeec'>getDBConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062640</td><td bgcolor='#eeeeec'>getLocalConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>5</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062880</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-connect' target='_new'>mysqli_connect</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php' bgcolor='#eeeeec'>...\local_connect.php<b>:</b>3</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php on line <i>4</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062616</td><td bgcolor='#eeeeec'>getDBConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062640</td><td bgcolor='#eeeeec'>getLocalConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>5</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>2.0081</td><td bgcolor='#eeeeec' align='right'>1063352</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php' bgcolor='#eeeeec'>...\local_connect.php<b>:</b>4</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>69</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063312</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>69</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: Cannot modify header information - headers already sent by (output started at C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php:4) in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>71</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063408</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.header' target='_new'>header</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>71</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.0101</td><td bgcolor='#eeeeec' align='right'>1063344</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+</table></font>
+QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_until<CURDATE() AS unavailable, is_trial,
+		teacher_label, short_url 
+		FROM teachers WHERE teacher_id = 38"' (teacher - 38)
+C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php:4) in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>71</i></th></tr>
+{anonymous}()@<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+{anonymous}()@<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+{anonymous}()@<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063408</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.header' target='_new'>header</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>71</td></tr>
+{anonymous}()@</table></font>
+{anonymous}()@<br />
+{anonymous}()@<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+{anonymous}()@<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+{anonymous}()@<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>198856</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.0001</td><td bgcolor='#eeeeec' align='right'>1062600</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>15</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.0091</td><td bgcolor='#eeeeec' align='right'>1063280</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>55</td></tr>
+{anonymous}()@<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.0101</td><td bgcolor='#eeeeec' align='right'>1063344</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+{anonymous}()@</table></font>
+QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_until<CURDATE() AS unavailable, is_trial,{anonymous}() (
+		teacher_label, short_url )
+{anonymous}()@		FROM teachers WHERE teacher_id = 38"'
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:46:51 - TypeError: promptsAmount.data.forEach is not a function (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:185:36
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:46:51 - TypeError: responses.data.forEach is not a function (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:420:36
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:47:31 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:47:35 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:48:19 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:48:23 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:48:47 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:49:52 - TypeError: Cannot create property 'last_visit' on string 'null' (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/services.js:69:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:50:35 - TypeError: Cannot read property 'trim' of undefined (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/controllers/main.js:27:74
+{anonymous}()@http://localhost/teachers/scripts/services.js:73:21
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:50:46 - TypeError: Cannot read property 'trim' of undefined (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/controllers/main.js:27:74
+{anonymous}()@http://localhost/teachers/scripts/services.js:73:21
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:51:01 - TypeError: Cannot read property 'trim' of undefined (teacher - 38)
+{anonymous}()@http://localhost/teachers/scripts/controllers/main.js:27:74
+{anonymous}()@http://localhost/teachers/scripts/services.js:73:21
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-09-28 07:51:47 - TypeError: Cannot read property 'signin2' of undefined (student - )
+renderGapi@http://localhost/teachers/scripts/app.js:96:34
+n@http://localhost/teachers/libraries/angular/angular.min.js:111:419
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:112:202
+
+2017-09-30 12:39:19 - TypeError: Cannot create property 'last_visit' on string '<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php on line <i>3</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>200312</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092720</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>16</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092736</td><td bgcolor='#eeeeec'>getDBConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>51</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092760</td><td bgcolor='#eeeeec'>getLocalConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>5</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1093000</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-connect' target='_new'>mysqli_connect</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php' bgcolor='#eeeeec'>...\local_connect.php<b>:</b>3</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php on line <i>4</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>200312</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092720</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>16</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092736</td><td bgcolor='#eeeeec'>getDBConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>51</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092760</td><td bgcolor='#eeeeec'>getLocalConnection(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>5</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0270</td><td bgcolor='#eeeeec' align='right'>1093296</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php' bgcolor='#eeeeec'>...\local_connect.php<b>:</b>4</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>69</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>200312</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092720</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>16</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093360</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>56</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093392</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>69</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: Cannot modify header information - headers already sent by (output started at C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php:4) in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>71</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>200312</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092720</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>16</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093360</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>56</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093488</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.header' target='_new'>header</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>71</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>200312</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092720</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>16</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093360</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>56</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0290</td><td bgcolor='#eeeeec' align='right'>1093424</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+</table></font>
+QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_until<CURDATE() AS unavailable, is_trial,
+		teacher_label, short_url 
+		FROM teachers WHERE teacher_id = 43"' (teacher - 43)
+C:\Program Files (x86)\Ampps\www\teachers\local\local_connect.php:4) in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>71</i></th></tr>
+{anonymous}()@<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+{anonymous}()@<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>200312</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092720</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>16</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093360</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>56</td></tr>
+{anonymous}()@<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093488</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.header' target='_new'>header</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>71</td></tr>
+{anonymous}()@</table></font>
+{anonymous}()@<br />
+{anonymous}()@<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+{anonymous}()@<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+{anonymous}()@<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>200312</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0240</td><td bgcolor='#eeeeec' align='right'>1092720</td><td bgcolor='#eeeeec'>loadTeacherInfo(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>16</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>1093360</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\core\teacher.php' bgcolor='#eeeeec'>...\teacher.php<b>:</b>56</td></tr>
+{anonymous}()@<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0290</td><td bgcolor='#eeeeec' align='right'>1093424</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+{anonymous}()@</table></font>
+QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_until<CURDATE() AS unavailable, is_trial,{anonymous}() (
+		teacher_label, short_url )
+{anonymous}()@		FROM teachers WHERE teacher_id = 43"'
+{anonymous}()@http://localhost/teachers/scripts/services.js:68:44
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-10-09 05:55:07 - TypeError: Cannot read property 'innerText' of null (student - )
+renderGapi@http://localhost/teachers/scripts/app.js:97:61
+Object.link@http://localhost/teachers/scripts/app.js:93:24
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:84:480
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+n@http://localhost/teachers/libraries/angular/angular.min.js:70:226
+g@http://localhost/teachers/libraries/angular/angular.min.js:61:496
+g@http://localhost/teachers/libraries/angular/angular.min.js:62:12
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:66:281
+<google-sign-in-button button-id="signInButton" options="options" class="ng-isolate-scope">
+2017-10-09 05:57:19 - TypeError: angular.element(...).innerText is not a function (student - )
+renderGapi@http://localhost/teachers/scripts/app.js:97:79
+Object.link@http://localhost/teachers/scripts/app.js:93:24
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:84:480
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+n@http://localhost/teachers/libraries/angular/angular.min.js:70:226
+g@http://localhost/teachers/libraries/angular/angular.min.js:61:496
+g@http://localhost/teachers/libraries/angular/angular.min.js:62:12
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:61:119
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:66:281
+<google-sign-in-button button-id="signInButton" options="options" class="ng-isolate-scope">
+2017-10-09 06:05:11 - TypeError: f is not a function (student - )
+n@http://localhost/teachers/libraries/angular/angular.min.js:111:419
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:112:202
+
+2017-10-09 06:11:23 - TypeError: a.match is not a function (student - )
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:53:402
+q@http://localhost/teachers/libraries/angular/angular.min.js:8:184
+d@http://localhost/teachers/libraries/angular/angular.min.js:53:351
+Y@http://localhost/teachers/libraries/angular/angular.min.js:77:385
+jc@http://localhost/teachers/libraries/angular/angular.min.js:63:500
+Ma@http://localhost/teachers/libraries/angular/angular.min.js:62:133
+Ma@http://localhost/teachers/libraries/angular/angular.min.js:62:307
+ca@http://localhost/teachers/libraries/angular/angular.min.js:60:87
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:66:246
+d@http://localhost/teachers/libraries/angular/angular.min.js:63:252
+
+2017-10-09 06:28:40 - ReferenceError: $widow is not defined (student - )
+goToClass@http://localhost/teachers/scripts/controllers/main.js:92:13
+Object.tryStudent@http://localhost/teachers/scripts/services.js:35:13
+new <anonymous>@http://localhost/teachers/scripts/controllers/main.js:5:22
+Object.instantiate@http://localhost/teachers/libraries/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/libraries/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+n@http://localhost/teachers/libraries/angular/angular.min.js:70:226
+g@http://localhost/teachers/libraries/angular/angular.min.js:61:496
+<div ng-view="" class="ng-scope">
+2017-10-09 06:28:51 - TypeError: $window.location.absUrl is not a function (student - )
+goToClass@http://localhost/teachers/scripts/controllers/main.js:92:30
+Object.tryStudent@http://localhost/teachers/scripts/services.js:35:13
+new <anonymous>@http://localhost/teachers/scripts/controllers/main.js:5:22
+Object.instantiate@http://localhost/teachers/libraries/angular/angular.min.js:44:272
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:94:141
+Object.link@http://localhost/teachers/libraries/angular-route/angular-route.min.js:7:322
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:17:3
+ra@http://localhost/teachers/libraries/angular/angular.min.js:85:35
+n@http://localhost/teachers/libraries/angular/angular.min.js:70:226
+g@http://localhost/teachers/libraries/angular/angular.min.js:61:496
+<div ng-view="" class="ng-scope">
+2017-10-09 07:57:39 - ReferenceError: params is not defined (student - -1)
+goToTeacher@http://localhost/teachers/scripts/controllers/main.js:95:42
+{anonymous}()@http://localhost/teachers/scripts/controllers/main.js:88:24
+{anonymous}()@http://localhost/teachers/scripts/services.js:61:17
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}
+2017-10-09 07:58:04 - TypeError: teacherService.updateCookies is not a function (student - -1)
+goToTeacher@http://localhost/teachers/scripts/controllers/main.js:95:28
+{anonymous}()@http://localhost/teachers/scripts/controllers/main.js:88:24
+{anonymous}()@http://localhost/teachers/scripts/services.js:61:17
+{anonymous}()@http://localhost/teachers/libraries/angular/angular.min.js:134:467
+{anonymous}() (m.)$digest@http://localhost/teachers/libraries/angular/angular.min.js:145:417
+{anonymous}() (m.)$apply@http://localhost/teachers/libraries/angular/angular.min.js:149:113
+l@http://localhost/teachers/libraries/angular/angular.min.js:102:89
+XMLHttpRequest.A.onload@http://localhost/teachers/libraries/angular/angular.min.js:107:489
+Possibly unhandled rejection: {}

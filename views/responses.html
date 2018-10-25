@@ -1,0 +1,82 @@
+<script type="text/ng-template" id="tutorialTemplate.html">
+    <div>Click "Edit" to remove classes you don't need. And, click the gear icon to change a class' name or to change its prompts. Click on a class below to see the student responses for that class.</div>
+    <button class="btn ui-btn-tutorial" ng-click="goToTutorial2()">Next</button>
+    <div>
+        <br>
+        <input type="checkbox" ng-model="checkValue" ng-change="setTutorial(checkValue)" /> Don't show tutorial again
+    </div>
+</script>
+
+<nav class="navbar navbar-white navbar-fixed-top">
+    <div class="upper-bar">
+        <div class="row">
+            <div class="col-xs-3" ng-show="!removeOpened">
+                <span ng-click="openRemove(true)">Edit</span>
+                <span uib-popover-template="dynamicPopover.templateUrl" type="button" popover-is-open="dynamicPopover.isOpen" popover-placement="bottom-left" popover-title="Managing classes" popover-class="tutorial-popover tutorial-left">&nbsp;</span>
+            </div>
+            <div class="col-xs-3" ng-click="openRemove(false)" ng-show="removeOpened">Done</div>
+            <div class="col-xs-6 app-name">
+                School Evolve
+            </div>
+            <div class="col-xs-3 right-icons-block">
+                <div class="pull-right">
+                    <span ng-show="!removeOpened">
+                        <i class="fa fa-refresh fa-2x" aria-hidden="true" ng-click="refreshDashboard()"></i>&nbsp;&nbsp;
+                        <i class="fa fa-plus fa-2x" aria-hidden="true" ng-click="addNewClass()"></i>
+                    </span>
+                    <span ng-show="removeOpened" ng-click="removeAll()">
+                    Delete all
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="navbar-offset">
+    <div class="row main-menu" ng-controller="HeaderCtrl">
+        <div ng-if="location.url()!='/login' && location.url()!='/logout'">
+            <div class="col-xs-4 main-menu-item" ng-class="(location.url()=='/responses')?'active':''"><a href="#!responses">Responses</a></div>
+            <div class="col-xs-4 main-menu-item" ng-class="(location.url()=='/settings')?'active':''"><a href="#!settings">Settings</a></div>
+            <div class="col-xs-4 main-menu-item"><a href="#!logout">Logout</a></li>
+            </div>
+        </div>
+        <div ng-if="location.url()=='/logout'">
+            <div class="col-xs-4 main-menu-item"><a href="" ng-click="goToLogin()">Login</a></div>
+        </div>
+        <div ng-if="location.url()=='/login'">
+            <div class="col-xs-4 main-menu-item"><a href="#!logout">Logout</a></div>
+        </div>
+    </div>
+
+    <div class="section view-container" ng-if="!loaded">
+        <div class="alert alert-warning">Loading...</div>
+    </div>
+    <div ng-if="loaded">
+        <div class="no-classes-block" ng-if="!myClasses.length">
+            <p>No classes have been created</p>
+            <button class="btn ui-btn-big" ng-click="addNewClass()"><i class="fa fa-plus" aria-hidden="true"></i> Create a class</button>
+        </div>
+        <div ng-if="myClasses.length" class="class-link" ng-repeat="c in myClasses | orderBy:classSort:true | orderBy:'class_name'">
+            <div class="media">
+                <div ng-class="(removeOpened)?'':'hidden'" class="media-left media-middle class-panel-remove" ng-click="removeClass(c)">
+                    <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="media-body class-panel">
+                    <div ng-click="goToClass(c.class_id)">
+                        <div class="row">
+                            <div class="col-xs-8 class-panel-header" ng-class="(filteredResponsesArr[c.class_id].length)?'':'grey'">{{c.class_name}}</div>
+                            <div class="col-xs-4"><span class="grey pull-right" ng-if="classResponsesArr[c.class_id].length">{{classResponsesArr[c.class_id][0].response_date | date: 'h:mm a'}}</span></div>
+                        </div>
+                        <div class="class-panel-response" ng-if="classResponsesArr[c.class_id].length">{{classResponsesArr[c.class_id][0].credentials}}: "{{classResponsesArr[c.class_id][0].response_text | limitTo:100}}<span ng-if="classResponsesArr[c.class_id][0].response_text.length>100">...</span>"</div>
+                        <div class="class-panel-response" ng-if="!classResponsesArr[c.class_id].length">...</div>
+                    </div>
+                    <div class="row class-panel-footer">
+                        <div class="col-xs-4"><i class="fa fa-file-o" aria-hidden="true"></i> {{promptsAmount[c.class_id]}} prompts</div>
+                        <div class="col-xs-6"><i class="fa fa-comments-o" aria-hidden="true"></i> {{classResponsesArr[c.class_id].length}} responses &middot; <span ng-class="(filteredResponsesArr[c.class_id].length)?'green':''">{{(filteredResponsesArr[c.class_id] = (classResponsesArr[c.class_id] = (responsesObj.responses | filter:{'class_id':c.class_id} | orderBy:'response_date':true) | filter:{'response_new':'1'})).length}} new</span></div>
+                        <div class="col-xs-2" ng-click="editClass(c.class_id)"><span class="pull-right"><i class="fa fa-cog fa-lg" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,165 @@
+<script type="text/ng-template" id="tutorialTemplate.html">
+    <div>
+        <p>Click on setting to find your teacher's code. Your students need this to register and submit responses.</p>
+        <p><i>Tip: Let them use their initials as JumpID's!</i></p>
+    </div>
+    <button class="btn ui-btn-tutorial" ng-click="dynamicPopover.isOpen=false">Ok</button>
+    <div>
+        <br>
+        <input type="checkbox" ng-model="checkValue" ng-change="setTutorial(checkValue)" /> Don't show tutorial again
+    </div>
+</script>
+
+<div class="upper-bar">
+    <div class="row">
+        <div class="col-xs-12 app-name">
+            School Evolve
+        </div>
+    </div>
+</div>
+<div class="row main-menu" ng-controller="HeaderCtrl">
+    <div ng-if="location.url()!='/login' && location.url()!='/logout'">
+        <div class="col-xs-4 main-menu-item" ng-class="(location.url()=='/responses')?'active':''"><a href="#!responses">Responses</a></div>
+        <div class="col-xs-4 main-menu-item" ng-class="(location.url()=='/settings')?'active':''"><a href="#!settings">Settings</a></div>
+        <div class="col-xs-4 main-menu-item"><a href="#!logout">Logout</a></li>
+        </div>
+    </div>
+    <div ng-if="location.url()=='/logout'">
+        <div class="col-xs-4 main-menu-item"><a href="" ng-click="goToLogin()">Login</a></div>
+    </div>
+    <div ng-if="location.url()=='/login'">
+        <div class="col-xs-4 main-menu-item"><a href="#!logout">Logout</a></div>
+    </div>
+</div>
+
+<div class="view-container">
+    <div class="section" ng-if="!loaded">
+        <div class="alert alert-warning">Loading...</div>
+    </div>
+    <div ng-if="loaded">
+        <div class="section">
+            <div class="section-title">Teacher's code</div>
+            Students must enter "{{teacherLink}}" at <a href="https://app.schoolevolve.com" target="_blank">app.schoolevolve.com</a>
+            <span uib-popover-template="dynamicPopover.templateUrl" type="button" popover-class="tutorial-popover tutorial-left" popover-is-open="dynamicPopover.isOpen" popover-placement="bottom-left" popover-title="Your teacher page link">&nbsp;</span>
+        </div>
+        <!--<div class="section">
+            <div class="section-title">Account information</div>
+            <p ng-if="teacher.unavailable=='0'">
+                {{(teacher.is_trial=='1')?'Trial':'Active'}}. Expires {{teacher.paid_until}}.
+            </p>
+            <p ng-if="teacher.unavailable=='1'">
+                Account expired. Visit this link to purchase a new subscription: <a href="https://www.schoolevolve.com/pricing" target="_blank">https://www.schoolevolve.com/pricing</a>
+            </p>
+        </div>-->
+        <div class="section">
+            <div class="section-title">Personal information</div>
+            <form class="form" name="form.teachersName">
+                <div class="row">
+                    <div class="col-sm-2 form-group"><input class="teachers-input form-control" placeholder="Title" ng-model="teacher.teacher_title" /></div>
+                    <div class="col-sm-3 form-group"><input class="teachers-input form-control" placeholder="First name" ng-model="teacher.teacher_firstName" /></div>
+                    <div class="col-sm-3 form-group"><input class="teachers-input form-control" placeholder="Last name" ng-model="teacher.teacher_lastName" /></div>
+                    <div class="col-sm-4"><button class="btn ui-btn-save-settings" ng-click="updateTeacherInfo()" ng-disabled="form.teachersName.$pristine || updateInfoBlock">Update personal information</button></div>
+                </div>
+            </form>
+            <div ng-show="infoUpdated">
+                <div class="alert alert-success">Updated Successfully!</div>
+            </div>
+        </div>
+        <div ng-if="settingsLoaded" class="section">
+            <div class="section-title">Notifications</div>
+            <form class="form" name="form.notifications">
+                <div class="form-group">
+                    <input type="checkbox" ng-model="settingsObj.notifications.send_reports" /> Send notifications
+                </div>
+                <div ng-if="settingsObj.notifications.send_reports">
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            Send notifications every
+                            <select class="form-control" ng-model="settingsObj.notifications.send_reports_type">
+                            <option value="0">Day</option>
+                            <option value="1">Week</option>
+                            <option value="2">Month</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            Sending time
+                            <select class="form-control" ng-model="settingsObj.notifications.send_reports_time">
+                            <option value="0">Morning (6 AM)</option>
+                            <option value="1">Afternoon (2 PM)</option>
+                            <option value="2">Evening (8 PM)</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn ui-btn-save-settings" ng-click="updateNotifications()" ng-disabled="form.notifications.$pristine || notificationsBlock">Save notifications</button>
+            </form>
+            <div ng-show="notificationsUpdated">
+                <br>
+                <div class="alert alert-success">Updated Successfully!</div>
+            </div>
+        </div>
+        <div ng-if="settingsLoaded" class="section">
+            <div class="section-title">Auto remove responses</div>
+            <form class="form" name="form.settings">
+                <div class="form-group">
+                    <input type="checkbox" ng-model="settingsObj.settings.remove_responses" /> Auto remove responses
+                </div>
+                <div ng-if="settingsObj.settings.remove_responses">
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            Remove responses from category
+                            <select class="form-control" ng-model="settingsObj.settings.category_id">
+                    <option value="{{::category.category_id}}" ng-repeat="category in ::categories">{{::category.category_name}}</option>
+                            <option value="0">All categories</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            Remove after
+                            <select class="form-control" ng-model="settingsObj.settings.remove_after">
+                        <option value="1">1 day</option>
+                        <option value="7">7 days</option>
+                        <option value="30">30 days</option>
+                        <option value="180">180 days</option>
+                        <option value="365">365 days</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" ng-model="settingsObj.settings.keep_pin" /> Don't remove pinned responses
+                    </div>
+                </div>
+                <button class="btn ui-btn-save-settings" ng-click="updateSettings()" ng-disabled="form.settings.$pristine || settingsBlock">Save removal policy</button>
+            </form>
+            <div ng-show="settingsUpdated">
+                <br>
+                <div class="alert alert-success">Updated Successfully!</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Useful links</div>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="http://www.schoolevolve.com/privacy#Terms-of-Service" target="_blank">Terms of Service</a></li>
+                <li class="list-group-item"><a href="http://www.schoolevolve.com/privacy#Privacy-Policy" target="_blank">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <p class="text-center">
+                Contact privacy@schoolevolve.com to deactivate your account and/or delete your student data.
+            </p>
+        </div>
+        <!--<div class="section">
+        <h2>Backup</h2>
+        <p>Backup all my data and send it to me via email</p>
+        <button class="btn btn-default" ng-click="backupData()">Backup</button>
+    </div>
+    <div class="section">
+        <h2>Delete account</h2>
+        <p>Delete my account</p>
+        <button class="btn btn-default" ng-click="deleteAccount()">Delete</button>
+    </div>-->
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="modal-header">
+    <center>
+        <h3 class="modal-title">Create a JumpID</h3>
+    </center>
+</div>
+<form class="form" name="register" ng-submit="process.confirm=true;reg.errors={};" ng-if="!process.confirm">
+    <div class="modal-body">
+        <div class="form-group">
+            <input class="form-control" placeholder="Enter JumpID" ng-model="reg.credentials" required/>
+            <p class="jumpid-prompt">Use your initials for the JumpID, this will help you remember.</p>
+        </div>
+        <div class="form-group">
+            <input class="form-control" placeholder="Enter first name" ng-model="reg.firstName" required/>
+        </div>
+        <div class="form-group">
+            <input class="form-control" placeholder="Enter last name" ng-model="reg.lastName" required/>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn ui-btn-cancel" ng-click="cancel()">Cancel</button>
+        <button type="submit" class="btn ui-btn-add">Next</button>
+    </div>
+</form>
+<form ng-if="process.confirm" name="confirmation" ng-submit="registerToClass()">
+    <div class="modal-body">
+        <p>
+            Please, check if information you provided is correct:
+        </p>
+        <p><b>JumpID:</b> {{reg.credentials}}<br> <b>First Name:</b> {{reg.firstName}}<br> <b>Last Name:</b> {{reg.lastName}}</p>
+        <div ng-show="reg.errors.alreadyRegistered" class="alert alert-danger">Sorry, but this JumpID is already registered to that class. Please choose another.<br>Try using only one letter of your initials e.g. instead of abc, just use a.</div>
+        <div ng-show="reg.errors.studentsLimit" class="alert alert-danger">Sorry, there are too much students registered to this class already. Please, ask your teacher to remove unnecessary registrations.</div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn ui-btn-cancel" ng-click="process.confirm=false;">Back</button>
+        <button type="submit" class="btn ui-btn-add" ng-disabled="registerBlock">Register</button>
+    </div>
+</form>

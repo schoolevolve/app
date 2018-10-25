@@ -1,0 +1,56 @@
+<div class="view-container">
+    <div class="section" ng-if="!loaded">
+        <div class="alert alert-warning">Loading...</div>
+    </div>
+    <div ng-show="loaded && !teacher" class="section">
+        <div class="login-block center-block">
+            <p class="desktop-prompt">This web app is optimized for mobile devices.</p>
+            <img class="logo" src="images/SchoolEvolve.png" />
+            <center>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <input class="teachers-input code-input form-control" placeholder="Enter code" ng-model="student.teacherCode" /></div>
+                    <br><br>
+                    <div class="col-xs-12">
+                        <button class="btn ui-btn-save-settings" ng-disabled="!student.teacherCode || student.teacherCode.trim()==''" ng-click="tryTeacherCode()">Go!</button>
+                    </div>
+                </div>
+                <div ng-show="student.wrongCode" class="alert alert-danger">It seems this code doesn't exist. Please ask your teacher to share his code with you once again.</div>
+            </center>
+            <center>
+                <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-6 login-separator"></div>
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-12">
+                        <div ng-if="!notRegistered">
+                            <google-sign-in-button id="google-signin" button-id="signInButton" options="options"></google-sign-in-button>
+                        </div>
+                        <div ng-if="notRegistered">
+                            <p>Email {{teacherEmail}} was not registered yet. Are you sure want to create new account for that email?</p>
+                            <a class="btn ui-btn-cancel" href="#!logout">Logout</a>
+                            <button class="btn ui-btn-delete" ng-click="proceedLogin()">Continue</button>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+    <div class="section" ng-if="teacher && !teacher.introduced">
+        <div class="section-title">Initial setup</div>
+        <form class="form" name="form.teachersName" ng-submit="updateTeacherInfo()">
+            <div class="form-group">
+                <input type="checkbox" required/> Accept Terms of Service (<a href="http://www.schoolevolve.com/privacy#Terms-of-Service" target="_blank">www.schoolevolve.com/privacy#Terms-of-Service</a>)
+            </div>
+            <div class="form-group">
+                <input type="checkbox" required/> Accept Privacy Policy (<a href="http://www.schoolevolve.com/privacy#Privacy-Policy" target="_blank">www.schoolevolve.com/privacy#Privacy-Policy</a>)
+            </div>
+            <div class="form-group"><input class="teachers-input form-control" placeholder="Title" ng-model="teacher.teacher_title" required /></div>
+            <div class="form-group"><input class="teachers-input form-control" placeholder="First name (Optional)" ng-model="teacher.teacher_firstName" /></div>
+            <div class="form-group"><input class="teachers-input form-control" placeholder="Last name" ng-model="teacher.teacher_lastName" required/></div>
+            <p>This is what your students will see in the title of your teacher page:<br>
+                <span ng-if="form.teachersName.$dirty">"Welcome to {{teacher.teacher_title}} {{teacher.teacher_lastName}}'s teacher page!"</span></p>
+            <button type="submit" class="btn ui-btn-save-settings" ng-disabled="form.teachersName.$pristine || updateInfoBlock">Save</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,374 @@
+.container {
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.class-panel {
+    padding: 15px 10px 15px 15px;
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.class-panel-header {
+    text-transform: uppercase;
+    color: #094fa4;
+    font-weight: 700;
+}
+
+.class-panel-response {
+    margin: 10px 0;
+}
+
+.class-panel-footer {
+    font-size: 95%;
+    color: #9d9d9d;
+}
+
+.class-panel-remove {
+    color: white;
+    background-color: #fe5555;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #b90000;
+}
+
+.grey {
+    color: #9d9d9d;
+}
+
+.green {
+    color: #0b9444;
+}
+
+.main-menu {
+    border-top: 1px solid #9d9d9d;
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.main-menu-item {
+    text-align: center;
+    padding: 10px 0;
+    color: #9d9d9d;
+}
+
+.main-menu-item a {
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+.main-menu-item.active {
+    background: orange;
+    color: white;
+    font-weight: 700;
+}
+
+.main-menu-item.active a {
+    color: white;
+}
+
+.upper-bar {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.app-name {
+    font-size: 140%;
+    font-weight: 900;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tutorial-left {
+    margin-left: -20px!important;
+}
+
+.tutorial-popover {
+    min-width: 250px;
+}
+
+.ui-modal-header {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.ui-modal-body {
+    text-align: center;
+    color: #9d9d9d;
+}
+
+.ui-btn-cancel {
+    border: 1px none #626262;
+    background-color: #c3c3c3;
+    color: #626262;
+    padding: 9px 15px;
+    width: 48%;
+}
+
+.ui-btn-add {
+    color: white;
+    width: 48%;
+    border: 1px none #065728;
+    background-color: #0b9444;
+    padding: 9px 15px;
+}
+
+.ui-btn-add:hover {
+    color: white;
+}
+
+.ui-btn-delete {
+    color: white;
+    padding: 10px 20px;
+    border: 1px none #094fa4;
+    background-color: #85a8d2;
+    padding: 9px 15px;
+    width: 48%
+}
+
+.ui-btn-delete:hover {
+    color: white;
+}
+
+.ui-btn-big {
+    background-color: #094fa4;
+    color: white;
+    padding: 10 15px;
+    font-size: 90%;
+}
+
+.ui-btn-big:hover {
+    color: white;
+}
+
+.no-classes-block {
+    color: #9d9d9d;
+    font-size: 130%;
+    text-align: center;
+    padding: 15px;
+    border: 1px dashed #9d9d9d;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.filter-block {
+    padding: 15px 0;
+    border-top: 1px solid #9d9d9d;
+    border-bottom: 1px solid #9d9d9d;
+    height: 70px;
+}
+
+.filter-block-select {
+    color: #9d9d9d;
+    border: 1px solid #000;
+    /*width: inherit!important;*/
+}
+
+.filtered-prompt {
+    text-align: center;
+    padding: 10px;
+    font-size: 110%;
+    font-weight: 600;
+    border-bottom: 1px solid #9d9d9d
+}
+
+.response-panel-cred {
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    height: 50px;
+    font-size: 120%;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+.category-custom {
+    background-color: #85A8D2;
+}
+
+.category-effective {
+    background-color: #0B9444;
+}
+
+.category-talk {
+    background-color: #094FA4;
+}
+
+.category-facilitating {
+    background-color: #FCB040;
+}
+
+.category-formative {
+    background-color: #6FB5FF;
+    color: black;
+}
+
+.category-socio {
+    background-color: #A0C99B;
+}
+
+.response-panel {
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.offset-top {
+    padding-top: 13px;
+}
+
+.response-panel-header {
+    white-space: nowrap;
+    /*overflow: hidden;*/
+}
+
+.response-panel-name {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.response-panel-prompt {
+    overflow: hidden;
+    color: #9d9d9d;
+    margin-left: 10px;
+}
+
+.response-panel-text {
+    padding-top: 5px;
+}
+
+.response {
+    border-bottom: 1px solid #9d9d9d;
+    padding-right: 10px;
+}
+
+.section-title {
+    margin: 15px 0;
+    color: #9d9d9d;
+    font-size: 100%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.teachers-input {
+    color: #9d9d9d;
+    border: 1px solid #000;
+}
+
+.code-input {
+    text-align: center;
+}
+
+.ui-btn-save-settings {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px none #094fa4;
+    background-color: #0b9444;
+    padding: 9px 15px;
+    color: #fff;
+}
+
+.ui-btn-save-settings:hover,
+.ui-btn-save-settings:focus {
+    color: #fff;
+}
+
+.ui-btn-addon {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #094fa4;
+    color: white;
+}
+
+.ui-btn-addon:hover,
+.ui-btn-addon:focus {
+    color: #fff;
+}
+
+.ui-btn-tutorial {
+    background-color: #094fa4;
+    color: white;
+}
+
+.ui-btn-tutorial:hover,
+.ui-btn-tutorial:focus {
+    color: #fff;
+}
+
+.login-block {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.view-container {
+    padding-top: 20px;
+}
+
+.logo {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.panel-default > .panel-heading {
+    color: #9d9d9d;
+    background-color: inherit;
+    border-color: #ddd;
+}
+
+.delete-block {
+    color: #fe5555;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid #9d9d9d;
+}
+
+.upper-student-name {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #9d9d9d;
+}
+
+.navbar-offset {
+    padding-top: 60px;
+}
+
+.navbar-offset-big {
+    padding-top: 100px;
+}
+
+.navbar-white {
+    background-color: white;
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.no-hidden {
+    overflow: visible!important;
+}
+
+@media (max-width:325px) {
+    .app-name {
+        width: 48%;
+    }
+    .right-icons-block {
+        width: 27%;
+    }
+}
+
+@media (max-width:768px) {
+    .login-block {
+        margin-top: 40%;
+    }
+    .desktop-prompt {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .filter-block-select {
+        width: inherit!important;
+    }
+}

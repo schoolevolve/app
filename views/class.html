@@ -1,0 +1,81 @@
+<div class="upper-bar">
+    <div class="row">
+        <div class="col-xs-3">
+            <a class="noDeco" href="" ng-click="goBack()"><i class="fa fa-chevron-left fa-lg" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-6 app-name">
+            Manage class
+        </div>
+        <div class="col-xs-3">
+        </div>
+    </div>
+</div>
+<div class="section" ng-if="!loaded">
+    <div class="alert alert-warning">Loading...</div>
+</div>
+<div ng-if="loaded">
+    <div class="section">
+        <div class="section-title">Name of class</div>
+        <form class="form-inline" name="classNameForm">
+            <div class="input-group">
+                <input class="form-control" placeholder="Enter class name" ng-model="classInfo.class_name" />
+                <div class="input-group-addon btn ui-btn-addon" ng-click="updateClassName()">Update</div>
+            </div>
+        </form>
+        <div class="section-title">Class direct link</div>
+        <a ng-href="{{::classLink}}" target="_blank">{{::classLink}}</a>
+    </div>
+    <div ng-if="promptsLoaded" class="section">
+        <div class="section-title">Add prompts</div>
+        <button class="margin-left btn btn-default btn-sm" ng-click="hideAddPrompts = !hideAddPrompts">{{(hideAddPrompts)?'Show':'Hide'}} prompts</button><br><br>
+        <div ng-show="!hideAddPrompts">
+            <uib-accordion close-others="false">
+                <div uib-accordion-group class="panel-default" heading="Custom prompts (CP) ({{promptIndexes['0']?promptIndexes['0'].length:0}} active)" is-open="true">
+                    <div ng-repeat="prompt in (filteredPrompts['0'] = (promptsObj.prompts | filter:{'category_id':'0'}:true | orderBy:'prompt_body'))" class="checkbox">
+                        <label>
+				<input type="checkbox" ng-checked="checkValue = (promptIndexes['0'] && promptIndexes['0'].indexOf(prompt.prompt_id)!=-1)"  ng-model="checkValue" ng-change="addPromptToClass(checkValue, prompt)" />
+				{{prompt.prompt_body}}
+			</label> <span class="pull-right grey"><span class="glyphicon glyphicon-pencil" ng-click="editCustomPrompt(prompt)"></span>
+                    </div>
+                    <p><span ng-if="!filteredPrompts['0'].length">There are no custom prompts. </span></p>
+                    <buttom class="btn btn-sm btn-default" ng-click="addNewCustomPrompt()"><span class="glyphicon glyphicon-plus"></span> Add custom prompt</button>
+                </div>
+                <div class="section-title">Main categories</div>
+                <div uib-accordion-group ng-repeat="category in ::promptsObj.categories | filter:filterMainCategories | orderBy:'category_name'" class="panel-default" heading="{{::category.category_name}} ({{(promptIndexes[category.category_id])?promptIndexes[category.category_id].length:0}} active)" is-open="mainCategoriesOpened[$index]">
+                    <div ng-repeat="prompt in ::(filteredPrompts[category.category_id] = (promptsObj.prompts | filter:{'category_id':category.category_id}:true | orderBy:'prompt_body'))" class="checkbox no-overflow">
+                        <label>
+				<input type="checkbox" ng-checked="checkValue = (promptIndexes[prompt.category_id] && promptIndexes[prompt.category_id].indexOf(prompt.prompt_id)!=-1)"  ng-model="checkValue" ng-change="addPromptToClass(checkValue, prompt)" />
+                            {{::prompt.prompt_body}}
+			</label>
+                    </div>
+                    <p ng-if="!filteredPrompts[category.category_id].length">There are no prompts in {{::category.category_name}} category</p>
+                </div>
+                <br>
+                <button class="btn btn-default btn-sm" ng-click="showOther = !showOther">{{(showOther)?'Hide':'Show'}} other categories</button>
+                <div ng-show="showOther">
+                    <div class="section-title">Other categories</div>
+                    <div uib-accordion-group ng-repeat="category in ::promptsObj.categories | filter:filterOtherCategories | orderBy:'category_name'" class="panel-default" heading="{{::category.category_name}} ({{(promptIndexes[category.category_id])?promptIndexes[category.category_id].length:0}} active)" is-open="otherCategoriesOpened[$index]">
+                        <div ng-repeat="prompt in ::(filteredPrompts[category.category_id] = (promptsObj.prompts | filter:{'category_id':category.category_id}:true | orderBy:'prompt_body'))" class="checkbox no-overflow">
+                            <label>
+				<input type="checkbox" ng-checked="checkValue = (promptIndexes[prompt.category_id] && promptIndexes[prompt.category_id].indexOf(prompt.prompt_id)!=-1)"  ng-model="checkValue" ng-change="addPromptToClass(checkValue, prompt)" />
+                            {{::prompt.prompt_body}}
+			</label>
+                        </div>
+                        <p ng-if="!filteredPrompts[category.category_id].length">There are no prompts in {{::category.category_name}} category</p>
+                    </div>
+            </uib-accordion>
+            </div>
+        </div>
+    </div>
+    <div ng-if="studentsLoaded" class="section">
+        <div class="section-title">Students ({{registeredStudents.length}} students)<button class="btn btn-sm ui-btn-addon pull-right" ng-click="addStudent()"><span class="glyphicon glyphicon-plus"></span> Add student</button></div><button class="btn btn-default btn-sm" ng-click="hideStudents = !hideStudents">{{(hideStudents)?'Show':'Hide'}} students</button><br><br>
+        <div ng-show="!hideStudents">
+            <div ng-if="studentsLoaded">
+                <p ng-repeat="student in registeredStudents | orderBy:'student_lastName'">{{$index+1}}. <a href="" ng-click="::goToStudent(student.credentials_id)">{{::student.student_firstName}} {{::student.student_lastName}} ({{::student.credentials}})</a> <span uib-popover="{{getCalledOnText(student.called_on)}}" popover-placement="top-left" class="badge" ng-class="getCalledOnClass(student.called_on)">{{::student.called_on}}</span> <span class="grey glyphicon glyphicon-remove pull-right" ng-click="removeStudent(student)"></span></p>
+                <p ng-if="registeredStudents.length==0">
+                    No students registered to that class yet
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

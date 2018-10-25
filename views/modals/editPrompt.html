@@ -1,0 +1,17 @@
+<div class="modal-header">
+    <center>
+        <h3 class="modal-title">Edit custom prompt</h3>
+    </center>
+</div>
+<form class="form" name="promptBody">
+    <div class="modal-body">
+        <div class="form-group"><input class="form-control" placeholder="Enter prompt" ng-model="editPrompt.newBody" /></div>
+        <div class="form-group"><input class="form-control" placeholder="Enter extra information for teacher" ng-model="editPrompt.newBodyTeacher" /></div>
+        <div class="form-group"><input class="form-control" placeholder="Enter extra information for student" ng-model="editPrompt.newBodyStudent" /></div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn ui-btn-cancel" ng-click="cancel()">Cancel</button>
+        <button class="btn ui-btn-add" type="submit" ng-click="updatePromptBody()" ng-disabled="promptBody.$pristine || promptBlock">Save</button>
+        <div class="delete-block" ng-click="deletePrompt()">Delete Prompt</div>
+    </div>
+</form>

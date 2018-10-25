@@ -1,0 +1,237 @@
+2017-07-13 08:48:35 - Table 'teachers2.settingsa' doesn't existQUERY: "SELECT * FROM settingsa WHERE teacher_id = 3"(student - )
+2017-07-13 08:49:32 - Table 'teachers2.settingsa' doesn't existQUERY: "SELECT * FROM settingsa WHERE teacher_id = 3" ( )
+2017-07-13 08:49:52 - Table 'teachers2.settingsa' doesn't existQUERY: "SELECT * FROM settingsa WHERE teacher_id = 3" (3 )
+2017-07-13 08:50:15 - Table 'teachers2.settingsa' doesn't existQUERY: "SELECT * FROM settingsa WHERE teacher_id = 3" (teacher - 3)
+2017-07-13 08:50:52 - Table 'teachers2.classesa' doesn't existQUERY: "SELECT * FROM classesa c INNER JOIN teachers t ON t.teacher_id = c.teacher_id WHERE CONCAT(teacher_label, t.teacher_id) = "iP3X3"" (teacher - 3)
+2017-07-18 06:32:58 - Unknown column 'student_id' in 'where clause'QUERY: "SELECT class_id, credentials_id, credentials FROM class_credentials WHERE student_id = 16" (teacher - 3)
+2017-07-24 14:16:29 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"st period", 14)' at line 2QUERY: "INSERT INTO classes (class_label, class_name, teacher_id) VALUES 
+					("L4nh", 1"st period", 14)" (teacher - 14)
+2017-07-25 08:10:33 - Column 'class_id' in field list is ambiguousQUERY: "SELECT class_id, COUNT(prompt_id) AS prompts_amount FROM class_prompt cp INNER JOIN classes c ON c.class_id = cp.class_id
+		WHERE c.teacher_id = 12 GROUP BY class_id LIMIT 8" (teacher - 12)
+2017-07-28 15:47:41 - Table 'teachers2.teacher' doesn't existQUERY: "SELECT c.class_id, c.class_name, t.paid_until<CURDATE() AS unavailable 
+		FROM classes c INNER JOIN teacher t ON t.teacher_id = c.class_id 
+		WHERE CONCAT(class_label, class_id) = "rfWF66"" (teacher - 12)
+2017-07-28 16:06:49 - Unknown column 'paid_unitl' in 'field list'QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_unitl<CURDATE() AS unavailable 
+		FROM teachers WHERE teacher_id = 12" (teacher - 12)
+2017-08-02 05:29:11 - Column 'teacher_id' in where clause is ambiguousQUERY: "SELECT * FROM responses r INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNER JOIN classes c ON c.class_id = cc.class_id INNER JOIN prompts p ON r.prompt_id = p.prompt_id
+		WHERE teacher_id = 12" (teacher - 12)
+2017-08-03 19:22:31 - <!DOCTYPE html>
+<html>
+<head>
+<title>404 Error</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<br />
+<br />
+<center>
+<a href="http://www.ampps.com"><img src="http://www.softaculous.com/website/images/ampps/ampps_logo.png" /></a>
+<h1>Not Found - 404</h1>
+<p>The requested URL was not found on this server.</p>
+</center>
+
+</body>
+</html>
+ (teacher - 12)
+2017-08-04 03:50:49 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNE' at line 2QUERY: "SELECT r.*, cc.credentials, cc.*, r.response_date>t.last_visit AS new  
+		INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNER JOIN classes c ON c.class_id = cc.class_id INNER JOIN prompts p ON r.prompt_id = p.prompt_id 
+		INNER JOIN teachers t ON c.teacher_id = t.teacher_id 
+		WHERE c.teacher_id = 1" (teacher - 1)
+2017-08-04 03:51:43 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNE' at line 2QUERY: "SELECT r.*, cc.credentials, cc.*  
+		INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNER JOIN classes c ON c.class_id = cc.class_id INNER JOIN prompts p ON r.prompt_id = p.prompt_id 
+		INNER JOIN teachers t ON c.teacher_id = t.teacher_id 
+		WHERE c.teacher_id = 1" (teacher - 1)
+2017-08-04 03:54:53 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNE' at line 4QUERY: "SELECT r.response_id, r.response_date, r.response_text, r.response_pinned, cc.credentials, cc.student_id, cc.student_firstName,
+		cc.student_lastName, cc.class_id, p.prompt_id, p.category_id, 
+		r.response_date>t.last_visit AS new  
+		INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNER JOIN classes c ON c.class_id = cc.class_id 
+		INNER JOIN prompts p ON r.prompt_id = p.prompt_id 
+		INNER JOIN teachers t ON c.teacher_id = t.teacher_id 
+		WHERE c.teacher_id = 1" (teacher - 1)
+2017-08-05 09:02:06 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM responses r
+		INNER JOIN class_credentials cc ON r.credentials_id = cc.cre' at line 2QUERY: "SELECT r.*, cc.*, p.prompt_id, p.category_id, 
+		FROM responses r
+		INNER JOIN class_credentials cc ON r.credentials_id = cc.credentials_id 
+		INNER JOIN classes c ON c.class_id = cc.class_id 
+		LEFT JOIN prompts p ON r.prompt_id = p.prompt_id 
+		INNER JOIN teachers t ON c.teacher_id = t.teacher_id 
+		WHERE c.teacher_id = 1" (teacher - 1)
+2017-08-05 09:17:02 - Unknown column 'last_visit' in 'field list'QUERY: "SELECT teacher_id, teacher_firstName, teacher_lastName, paid_until, paid_until<CURDATE() AS unavailable, is_trial,
+		teacher_label, short_url, last_visit 
+		FROM teachers WHERE teacher_id = 1" (teacher - 1)
+2017-09-19 12:52:40 - Table 'teachers2.classes2' doesn't existQUERY: "SELECT * FROM classes2 WHERE class_id = 178 AND teacher_id = 23" (teacher - 23)
+2017-09-28 07:51:12 - Authorization required (student - )
+2017-09-28 07:51:46 - Authorization required (student - )
+2017-09-28 07:52:33 - Authorization required (student - )
+2017-09-28 07:54:24 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1QUERY: "INSERT INTO class_prompt (class_id, prompt_id) VALUES " (teacher - 39)
+2017-09-28 07:58:54 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1QUERY: "INSERT INTO class_prompt (class_id, prompt_id) VALUES " (teacher - 40)
+2017-09-28 08:03:24 - "login2" method not found (teacher - 40)
+2017-09-28 08:03:56 - INSERT INTO class_prompt (class_id, prompt_id) VALUES (, 33),(, 16),(, 17),(, 37),(, 18),(, 24) (teacher - 40)
+2017-09-28 08:07:42 - "login2" method not found (teacher - 40)
+2017-09-28 08:08:01 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1QUERY: "INSERT INTO class_prompt (class_id, prompt_id) VALUES " (teacher - 41)
+2017-09-28 08:09:30 - jiYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1QUERY: "INSERT INTO class_prompt (class_id, prompt_id) VALUES " (teacher - 42)
+2017-09-29 11:07:06 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND teacher_id = 43' at line 1QUERY: "SELECT * FROM classes WHERE class_id =  AND teacher_id = 43" (teacher - 43)
+2017-10-09 06:29:31 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1QUERY: "SELECT COUNT(credentials) AS credNumber FROM class_credentials WHERE credentials = "vh" AND class_id = " (student - 23)
+2017-10-09 07:41:43 - "createStudent" method not found (student - 23)
+2017-10-09 07:43:08 - <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php on line <i>26</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>145792</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>164864</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>165008</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-real-escape-string' target='_new'>mysqli_real_escape_string</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>26</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>69</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>145792</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>164864</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0510</td><td bgcolor='#eeeeec' align='right'>165056</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0510</td><td bgcolor='#eeeeec' align='right'>165088</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>69</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>145792</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>164864</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0510</td><td bgcolor='#eeeeec' align='right'>165056</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0520</td><td bgcolor='#eeeeec' align='right'>165152</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+</table></font>
+QUERY: "SELECT * FROM students WHERE student_id = "23" AND
+			student_hash = "" LIMIT 1" (student - 23)
+2017-10-09 07:43:57 - <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php on line <i>26</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>146056</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0040</td><td bgcolor='#eeeeec' align='right'>165160</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0040</td><td bgcolor='#eeeeec' align='right'>165304</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-real-escape-string' target='_new'>mysqli_real_escape_string</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>26</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>69</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>146056</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0040</td><td bgcolor='#eeeeec' align='right'>165160</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>165352</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>165384</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>69</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0010</td><td bgcolor='#eeeeec' align='right'>146056</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0040</td><td bgcolor='#eeeeec' align='right'>165160</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>165352</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>165448</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+</table></font>
+QUERY: "SELECT * FROM students WHERE student_id = "23" AND
+			student_hash = "" LIMIT 1" (student - 23)
+2017-10-09 07:44:50 - <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php on line <i>26</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>146224</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165280</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165424</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-real-escape-string' target='_new'>mysqli_real_escape_string</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>26</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>69</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>146224</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165280</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165472</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165504</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>69</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>146224</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165280</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165472</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0070</td><td bgcolor='#eeeeec' align='right'>165568</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+</table></font>
+QUERY: "SELECT * FROM students WHERE student_id = "23" AND
+			student_hash = "" LIMIT 1" (student - 23)
+2017-10-09 07:45:14 - <br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php on line <i>26</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>146224</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0100</td><td bgcolor='#eeeeec' align='right'>165280</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0100</td><td bgcolor='#eeeeec' align='right'>165440</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-real-escape-string' target='_new'>mysqli_real_escape_string</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>26</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>69</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>146224</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0100</td><td bgcolor='#eeeeec' align='right'>165280</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0100</td><td bgcolor='#eeeeec' align='right'>165472</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0100</td><td bgcolor='#eeeeec' align='right'>165504</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>69</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_error() expects parameter 1 to be mysqli, null given in C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php on line <i>72</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0050</td><td bgcolor='#eeeeec' align='right'>146224</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0100</td><td bgcolor='#eeeeec' align='right'>165280</td><td bgcolor='#eeeeec'>createStudent(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0100</td><td bgcolor='#eeeeec' align='right'>165472</td><td bgcolor='#eeeeec'>queryObject(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\student\core\login.php' bgcolor='#eeeeec'>...\login.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0110</td><td bgcolor='#eeeeec' align='right'>165568</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-error' target='_new'>mysqli_error</a>
+(  )</td><td title='C:\Program Files (x86)\Ampps\www\teachers\common\core\connector.php' bgcolor='#eeeeec'>...\connector.php<b>:</b>72</td></tr>
+</table></font>
+QUERY: "SELECT * FROM students WHERE student_id = "23" AND
+			student_hash = " " LIMIT 1" (student - 23)
+2017-12-01 09:06:04 - Authorization required (student - -1)
+2017-12-01 09:09:00 - Authorization required (student - -1)
+2017-12-01 09:10:17 - Authorization required (student - -1)
+2017-12-01 09:15:18 - Authorization required (student - -1)
+2018-01-06 11:15:16 - Authorization required (student - -1)
+2018-01-06 11:15:57 - Authorization required (student - -1)
+2018-01-06 11:29:45 - Authorization required (student - -1)
+2018-01-06 11:36:56 - Authorization required (student - -1)
+2018-01-06 11:37:36 - Authorization required (student - -1)
+2018-01-06 11:40:44 - Authorization required (student - -1)
+2018-06-07 15:40:11 - Authorization required (student - -1)
+2018-06-07 15:40:45 - Authorization required (student - -1)
+2018-06-07 15:41:06 - Authorization required (student - -1)

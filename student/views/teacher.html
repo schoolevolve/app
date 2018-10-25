@@ -1,0 +1,21 @@
+<div ng-if="!loaded" class="alert alert-warning">
+    Loading...
+</div>
+<div ng-if="loaded">
+    <div ng-if="::invalidURL">
+        URL is invalid. Please, ask your teacher to share his URL with you once again!
+    </div>
+    <div ng-if="::!invalidURL">
+        <div class="teacher-header">
+            <div class="teacher-welcome">Welcome to {{::teacherInfo.teacher_title}} {{::teacherInfo.teacher_firstName}} {{::teacherInfo.teacher_lastName}}'s page.</div>
+            <div class="teacher-choose-class">Please choose your class below</div>
+            <p><a href="" ng-click="clearData()">Not a page you're looking for?</a></p>
+        </div>
+        <!--<h1>{{::teacherInfo.teacher_title}} {{::teacherInfo.teacher_firstName}} {{::teacherInfo.teacher_lastName}}'s page</h1>-->
+        <div ng-if="::teacherClasses.length">
+            <div class="teacher-class-link" ng-repeat="c in ::teacherClasses | orderBy:'class_name'" ng-click="::goToClass(c.class_label+c.class_id)">
+                <div>{{::c.class_name}}<span class="pull-right glyphicon glyphicon-chevron-right go-to-class"></span></div>
+            </div>
+        </div>
+    </div>
+</div>

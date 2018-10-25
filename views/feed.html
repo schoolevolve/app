@@ -1,0 +1,121 @@
+<script type="text/ng-template" id="tutorialTemplate.html">
+    <div>
+        <p>Click the refresh icon, or swipe down, to refresh student responses. The app was designed to bother you as little as possible! So, you only get notification per day to tell you how many new responses came in.</p>
+    </div>
+    <button class="btn ui-btn-tutorial" ng-click="dynamicPopover.isOpen=false; dynamicPopover2.isOpen=true;">Ok</button>
+    <div>
+        <br>
+        <input type="checkbox" ng-model="checkValue" ng-change="setTutorial(checkValue)" /> Don't show tutorial again
+    </div>
+</script>
+
+<script type="text/ng-template" id="tutorialTemplate2.html">
+    <div>
+        <p>Tap the star next to a student response to "remember" it. Tap the star again to "forget" it. Click the gear icon to erase the responses you see, or send them as a report to your inbox. Good luck, and we hope you find this technology useful!</p>
+    </div>
+    <button class="btn ui-btn-tutorial" ng-click="dynamicPopover2.isOpen=false">Ok</button>
+    <div>
+        <br>
+        <input type="checkbox" ng-model="checkValue" ng-change="setTutorial(checkValue)" /> Don't show tutorial again
+    </div>
+</script>
+
+<nav class="navbar navbar-white navbar-fixed-top">
+    <div class="upper-bar">
+        <div class="row">
+            <div class="col-xs-3">
+                <a ng-show="!removeOpened" class="noDeco" href="" ng-click="goBack()"><i class="fa fa-chevron-left fa-lg" aria-hidden="true"></i></a>
+                <span ng-click="openRemove(false)" ng-show="removeOpened">Done</span>
+            </div>
+            <div class="col-xs-6 app-name">
+                <div>{{::className}}</div>
+            </div>
+            <div class="col-xs-3 right-icons-block">
+                <div ng-if="!studentFeed" class="pull-right">
+                    <span ng-show="!removeOpened">
+                    <i class="fa fa-refresh fa-2x" aria-hidden="true" ng-click="refreshResponses()"></i><span uib-popover-template="dynamicPopover.templateUrl" type="button" popover-is-open="dynamicPopover.isOpen" popover-placement="bottom-right" popover-title="Getting new responses">&nbsp;</span>
+                    <i class="fa fa-cog fa-2x dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-hidden="true"></i>
+                    <ul class="dropdown-menu">
+                        <li><a href="" ng-click="editClass()">Manage class</a></li>
+                        <li><a href="" ng-click="sendReport()">Send report</a></li>
+                        <li><a href="" ng-click="openRemove(true)">Delete responses</a></li>
+                    </ul>
+                    </span>
+                    <span ng-show="removeOpened" ng-click="removeAll()">
+                    Delete all
+                </span>
+                </div>
+            </div>
+        </div>
+        <div class="row upper-student-name" ng-if="studentFeed">
+            <div class="col-xs-12 app-name">{{::studentName}}</div>
+        </div>
+    </div>
+</nav>
+<div ng-class="(studentFeed)?'navbar-offset-big':'navbar-offset'">
+    <div class="section" ng-if="!loaded">
+        <div class="alert alert-warning">Loading...</div>
+    </div>
+    <div ng-if="loaded">
+        <div class="filter-block">
+            <form class="form-inline">
+                <div class="col-xs-6 form-group">
+                    <select class="form-control filter-block-select" ng-change="applyPromptFilter()" ng-model="filter.promptFilter">
+                <option value="">All prompts</option>
+                <option value="{{prompt.prompt_id}}" ng-repeat="prompt in prompts | filter:isPromptActive">{{prompt.prompt_body}}</option>
+            </select>
+                </div>
+                <div class="col-xs-4 form-group">
+                    <select class="form-control filter-block-select" ng-change="applySort()" ng-model="filter.sort">
+                <option disabled selected value>Sort by</option>
+                <option value="response_date">Date</option>
+                <option value="prompt_body">Prompt</option>
+                <option ng-if="!studentFeed" value="credentials">Student</option>
+                </select>
+                </div>
+                <div class="col-xs-2"><i ng-class="(filter.response_pinned=='1')?'golden':'grey'" class="fa fa-star fa-2x" aria-hidden="true" ng-click="checkPinned()"></i>
+                    <span uib-popover-template="dynamicPopover2.templateUrl" type="button" popover-is-open="dynamicPopover2.isOpen" popover-placement="bottom-right" popover-title="Managing responses">&nbsp;</span>
+                </div>
+            </form>
+        </div>
+        <div class="filtered-prompt no-overflow" ng-if="filter.promptFilter!=''">{{arrangedPrompts[filter.promptFilter].prompt_body}}</div>
+        <div class="responses-block" ng-if="responses.length">
+            <div ng-repeat="response in (responses | filter:{'class_id':filter.classFilter,'prompt_id':filter.promptFilter,'response_pinned':filter.response_pinned} | orderBy:['-response_pinned',((filter.sort=='response_date')?'-':'')+filter.sort])" class="response">
+                <div class="media no-hidden">
+                    <div ng-class="(removeOpened)?'':'hidden'" class="media-left media-middle class-panel-remove" ng-click="removeResponse(response)">
+                        <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+                    </div>
+                    <div class="media-body no-hidden response-panel">
+                        <div class="row">
+                            <div class="media no-hidden">
+                                <div class="media-left media-middle response-panel-cred" ng-class="(studentFeed)?'hidden':getCategoryClass(response.category_id)">
+                                    {{response.credentials}}
+                                </div>
+                                <div class="media-body row offset-top no-hidden">
+                                    <div class="col-xs-9 response-panel-header">
+                                        <span class="response-panel-name" ng-click="goToStudent(response.credentials_id)">
+                                        {{response.student_firstName}} {{response.student_lastName | limitTo:1}}.</span>
+                                        <span uib-popover="{{getCalledOnText(response.called_on)}}" popover-placement="top-left" class="badge" ng-class="getCalledOnClass(response.called_on)">{{response.called_on}}</span>
+                                        <span class="response-panel-prompt">{{arrangedPrompts[response.prompt_id].prompt_body | limitTo:20}}</span></div>
+                                    <div class="col-xs-3 grey"><span class="pull-right"><span ng-class="(response.response_pinned=='1')?'golden':''" ng-click="pinResponse(response)"><i class="fa fa-star fa-lg" aria-hidden="true"></i></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row response-panel-text">
+                            <div class="col-xs-12">{{response.response_text}}</div>
+                        </div>
+                        <div class="row grey">
+                            <span class="pull-right">{{response.response_date | date: 'h:mm a'}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="no-responses" ng-if="!responses.length">
+            <p>You don't have any responses yet.</p>
+            <p>Make sure your students have the teacher page link (<a target="_blank" ng-href="{{teacherLink}}">{{teacherLink}}</a>). Make sure they are registered, and make sure they submit responses, and often!<br>
+                <i>Remember: You can click on a student's name to see all of the responses they have submitted.</i></p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,106 @@
+/*.teachers-input{
+	width: 100%!important;
+}*/
+
+.edit-class {
+    cursor: pointer;
+    font-size: 60%;
+    margin-left: 20px;
+}
+
+.edit-prompt {
+    cursor: pointer;
+    font-size: 80%;
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.section {
+    min-height: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.no-responses {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.section-small {
+    min-height: 30px;
+    margin-bottom: 20px;
+}
+
+.accordion-toggle {
+    text-decoration: none!important
+}
+
+.big-text {
+    font-size: 130%
+}
+
+.small-remove {
+    cursor: pointer;
+    font-size: 80%;
+    line-height: -5px;
+}
+
+.small-edit {
+    cursor: pointer;
+    font-size: 80%;
+    line-height: -5px;
+    margin-left: 10px;
+}
+
+.golden {
+    color: #fcb040;
+}
+
+.pin {
+    cursor: pointer;
+    font-size: 130%;
+    top: 3px;
+}
+
+.full-width {
+    width: 90%!important;
+}
+
+.paymentForm {
+    border: 1px solid black;
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+.noDeco {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown-menu {
+    right: 5px;
+    left: inherit;
+}
+
+.called-no-response {
+    background-color: #F9A72B;
+}
+
+.called-good {
+    background-color: #0B9444;
+}
+
+.called-great {
+    background-color: #244BA6;
+}
+
+.called-outstanding {
+    background-color: #244BA6;
+}.login-separator{	 border-top:solid 1px black;	 margin-bottom:20px;}

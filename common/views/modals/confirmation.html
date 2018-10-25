@@ -1,0 +1,15 @@
+<!--<div class="modal-header">
+	<h3 class="modal-title">Confirmation</h3>
+</div>-->
+<div class="modal-body">
+	<p class="ui-modal-header">{{::modalHeader}}</p>
+	<p class="ui-modal-body" style="white-space:pre-line">
+	{{::question}}
+	</p>
+</div>
+<div class="modal-footer">
+	<center>
+	<button class="ui-btn-cancel" ng-click="cancel()">Cancel</button>
+	<button ng-class="btnClass" ng-click="ok()">{{::btnText}}</button>
+	</center>
+</div>
